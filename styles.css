@@ -1,1 +1,31 @@
 /*  your css code here. If applicable */
+
+		body {
+            background-color: black;
+            /* background-image: linear-gradient(135deg, grey 25%, transparent 25%, transparent 75%, grey 75%, grey), linear-gradient(135deg, grey 25%, transparent 25%, transparent 75%, grey 75%, grey); */
+            /* background-size: 20px 20px;
+            background-position: 0 0, 10px 10px; */
+        }
+
+        #animal-photos {
+            background-color: darkgrey;
+            padding: 20px;
+            gap: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        #photos {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+        #photo-heading {
+            color: white;
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
